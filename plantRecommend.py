@@ -1,5 +1,3 @@
-```python
-
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
@@ -205,4 +203,3 @@ client_socket.send(result.encode("UTF-8"))
 
 client_socket.close()
 server_socket.close()
-```
