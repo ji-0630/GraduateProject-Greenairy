@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:context=".Question1"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="📝 환경 TEST"
+                android:textColor="#03DA7C"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="112dp"
+                tools:layout_editor_absoluteY="288dp" />
+
+            <TextView
+                android:id="@+id/sunQ"
+                android:textSize="16dp"
+                android:textFontWeight="400"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. 집에 햇빛이 얼마나 들어오나요?"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="112dp"
+                tools:layout_editor_absoluteY="78dp" />
+
+
+            <RadioGroup
+                android:id="@+id/sunG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.61"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/sunQ"
+                tools:ignore="MissingConstraints">
+
+                <RadioButton
+                    android:id="@+id/rb_sun1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="많이 들어와요"
+                    tools:layout_editor_absoluteX="111dp"
+                    tools:layout_editor_absoluteY="361dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_sun2"
+                    android:layout_width="239dp"
+                    android:layout_height="47dp"
+                    android:text="적당히 들어와요"
+                    tools:layout_editor_absoluteX="98dp"
+                    tools:layout_editor_absoluteY="432dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_sun3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="조금 들어와요" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/waterQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="식물에 물을 얼마나 자주 줄 수 있나요?"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="112dp"
+                tools:layout_editor_absoluteY="288dp" />
+
+            <RadioGroup
+                android:id="@+id/waterG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="124dp"
+                tools:layout_editor_absoluteY="337dp">
+
+                <RadioButton
+                    android:id="@+id/rb_water1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="자주 줄 수 있어요" />
+
+                <RadioButton
+                    android:id="@+id/rb_water2"
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:text="가끔씩 줄 수 있어요" />
+
+                <RadioButton
+                    android:id="@+id/rb_water3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="많이 못 줄 것 같아요" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/winterQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="겨울철 집 온도는 어떠한가요?"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="112dp"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <RadioGroup
+                android:id="@+id/winterG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="124dp"
+                tools:layout_editor_absoluteY="337dp">
+
+                <RadioButton
+                    android:id="@+id/rb_winter1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="엄청 추워요" />
+
+                <RadioButton
+                    android:id="@+id/rb_winter2"
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:text="조금 추워요" />
+
+                <RadioButton
+                    android:id="@+id/rb_winter3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="적당해요" />
+
+                <RadioButton
+                    android:id="@+id/rb_winter4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="따뜻한 편이에요" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/loveQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="식물에게 얼마나 사랑을 줄 수 있나요?"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="112dp"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <RadioGroup
+                android:id="@+id/loveG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="124dp"
+                tools:layout_editor_absoluteY="337dp">
+
+                <RadioButton
+                    android:id="@+id/rb_love1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="자주 사랑해줄거에요" />
+
+                <RadioButton
+                    android:id="@+id/rb_love2"
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:text="자주 신경 못 쓸 것 같아요" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/safeQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="현재 반려동물을 기르시는 등 안전에 유의해야 하나요?"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="112dp"
+                tools:layout_editor_absoluteY="78dp" />
+
+            <RadioGroup
+                android:id="@+id/safeG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="124dp"
+                tools:layout_editor_absoluteY="337dp">
+
+                <RadioButton
+                    android:id="@+id/rb_safe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="네" />
+
+                <RadioButton
+                    android:id="@+id/rb_safe2"
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:text="괜찮아요" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_button"
+                android:text="다음"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteY="654dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
