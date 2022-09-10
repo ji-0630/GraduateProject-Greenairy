@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/userFragment"
+    tools:context="com.example.plantdiary.fragments.UserFragment">
+
+   <ImageView
+       android:id="@+id/logo"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginTop="170dp"
+       android:layout_marginBottom="0dp"
+       android:layout_centerHorizontal="true"
+
+   app:srcCompat="@drawable/logo" />
+
+   <TextView
+       android:id="@+id/title"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="50dp"
+       android:layout_marginBottom="25dp"
+       android:fontFamily="sans-serif"
+
+       android:text="Greeniary를 만든 사람들"
+       android:textAlignment="center"
+       android:textColor="#03DA7C"
+       android:textSize="24sp"
+       android:textStyle="bold"
+       tools:ignore="MissingConstraints"
+       tools:layout_editor_absoluteX="112dp"
+       tools:layout_editor_absoluteY="288dp" />
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="200dp"
+       android:layout_marginBottom="0dp"
+       android:fontFamily="sans-serif"
+       android:gravity="center"
+       android:text="숙명여자대학교 IT 공학부 졸업 프로젝트"
+       android:textAlignment="center"
+       android:textColor="#000000"
+       android:textSize="18sp"
+       android:textStyle="bold"
+       tools:ignore="MissingConstraints"
+       tools:layout_editor_absoluteX="112dp"
+       tools:layout_editor_absoluteY="288dp" />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="450dp"
+       android:layout_marginBottom="25dp"
+       android:fontFamily="sans-serif"
+       android:textAlignment="center"
+       android:gravity="center"
+       android:text="1815219 김예지\n1810208 이재인\n1915836 조신희"
+       android:textColor="#000000"
+       android:textSize="18sp"
+       android:textStyle="bold"
+       tools:ignore="MissingConstraints"
+       tools:layout_editor_absoluteX="112dp"
+       tools:layout_editor_absoluteY="288dp" />
+
+   <Button
+       android:id="@+id/btn_send"
+       android:layout_width="327dp"
+       android:layout_centerInParent="true"
+       android:layout_height="wrap_content"
+       android:background="@drawable/round_button"
+       android:layout_alignParentBottom="true"
+       android:layout_marginBottom="25dp"
+       android:text="📧plantdiary@gmail.com" />
+
+</RelativeLayout>
