@@ -20,7 +20,7 @@ inPlant = pd.DataFrame(items)
 inPlant.set_index('id', inplace=True)
 
 # 소켓 통신
-ip = "192.168.0.68"
+ip = "내 ip주소"
 port = 3000
 server_socket = socket(AF_INET, SOCK_STREAM)
 
