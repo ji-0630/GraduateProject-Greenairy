@@ -276,9 +276,6 @@ predNum = recomList[0]
 pred = verify(predNum)
 decodeData = list(map(int, decodeData))
 
-print(pred)
-print(decodeData)
-
 def cosine_similarity(a, b):
     return np.dot(a, b) / (np.linalg.norm(a) * (np.linalg.norm(b)))
 
