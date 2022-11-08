@@ -1,20 +1,27 @@
 # GraduateProject-Greenairy
 
-### 프로젝트 흐름도
-![image](https://user-images.githubusercontent.com/65642065/184268736-44d7d1e9-d711-4348-a847-ce98941bb477.png)
-* 초기 계획 안이라 변경되었음
-* Figma 사용
+## <프로젝트 목표 및 배경>
+![Greenairy_페이지_04](https://user-images.githubusercontent.com/65642065/200486741-f81a168b-6a06-4ef1-816f-e59c47a80ea0.jpg)
+![Greenairy_페이지_05](https://user-images.githubusercontent.com/65642065/200486824-6cc2aa00-f31a-4ee5-b8cb-7b9208ce805b.jpg)
 
-### 와이어프레임
-![image](https://user-images.githubusercontent.com/65642065/184269861-5eed745d-fb44-4c4d-8f1f-f126b0d5597f.png)
-![image](https://user-images.githubusercontent.com/65642065/184269894-ba85d6a6-ef0d-49f6-8806-6a91d5b7e399.png)
-![image](https://user-images.githubusercontent.com/65642065/184269922-14a715c5-eaf4-4983-aeea-c1b49f0b174f.png)
-![image](https://user-images.githubusercontent.com/65642065/184269951-fe27a95c-2972-4c21-92e5-19050d1ba9a8.png)
-* 초기 계획 안이라 변경되었음
-* Figma 사용
 
-### 시스템 구성도
-![image](https://user-images.githubusercontent.com/65642065/184271511-9e9f0700-9865-472b-a9b7-e4c883dc05be.png)
+## <구현환경>
+![Greenairy_페이지_07](https://user-images.githubusercontent.com/65642065/200486855-469057c1-625e-43c6-b5bb-a876fb0fd211.jpg)
 
-### 구현환경
-![image](https://user-images.githubusercontent.com/65642065/184271542-22e3a160-f4a5-4065-a3a6-ca036db1218d.png)
+## <시스템 구성도>
+![Greenairy_페이지_08](https://user-images.githubusercontent.com/65642065/200486898-cdda1baa-4c63-4889-b2cd-dada23b2379e.jpg)
+
+## <주요 기능>
+![Greenairy_페이지_09](https://user-images.githubusercontent.com/65642065/200486943-c39ab8cf-c8e1-4e0b-8ec2-4c776b5d32ff.jpg)
+![Greenairy_페이지_10](https://user-images.githubusercontent.com/65642065/200486950-204e130a-8694-4a06-9479-e14ebbd6a908.jpg)
+
+## <기능 구현 설명>
+![Greenairy_페이지_11](https://user-images.githubusercontent.com/65642065/200487053-9d88098b-1976-4473-b768-1e9cccdeb15e.jpg)
+![Greenairy_페이지_12](https://user-images.githubusercontent.com/65642065/200487060-2a7adace-59ff-4730-bba6-e894e1a63829.jpg)
+![Greenairy_페이지_13](https://user-images.githubusercontent.com/65642065/200487070-1368eaa8-e3b8-41e7-9bd5-c4b5a1620ac3.jpg)
+![Greenairy_페이지_14](https://user-images.githubusercontent.com/65642065/200487077-79d085ac-81a5-4ac8-a9e8-f512e84c6eac.jpg)
+![Greenairy_페이지_15](https://user-images.githubusercontent.com/65642065/200487082-5b61df51-612b-4932-be55-b7457b428abc.jpg)
+![Greenairy_페이지_15](https://user-images.githubusercontent.com/65642065/200487088-43bff778-6b46-45b8-a574-7ff726105708.jpg)
+![Greenairy_페이지_17](https://user-images.githubusercontent.com/65642065/200487103-93035eb0-8a7b-4108-9630-adf565f26ede.jpg)
+
+
